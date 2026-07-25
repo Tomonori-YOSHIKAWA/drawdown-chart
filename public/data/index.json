@@ -1,0 +1,170 @@
+{
+  "updatedAt": "2026-07-25T12:01:42.457Z",
+  "assets": [
+    {
+      "id": "GSPC",
+      "ticker": "^GSPC",
+      "name": "S&P 500",
+      "category": "index",
+      "currency": "USD",
+      "hasDividendAdjustment": false,
+      "firstDate": "2016-07-25",
+      "lastDate": "2026-07-24",
+      "points": 2514
+    },
+    {
+      "id": "NDX",
+      "ticker": "^NDX",
+      "name": "NASDAQ 100",
+      "category": "index",
+      "currency": "USD",
+      "hasDividendAdjustment": false,
+      "firstDate": "2016-07-25",
+      "lastDate": "2026-07-24",
+      "points": 2514
+    },
+    {
+      "id": "DJI",
+      "ticker": "^DJI",
+      "name": "NY ダウ",
+      "category": "index",
+      "currency": "USD",
+      "hasDividendAdjustment": false,
+      "firstDate": "2016-07-25",
+      "lastDate": "2026-07-24",
+      "points": 2514
+    },
+    {
+      "id": "N225",
+      "ticker": "^N225",
+      "name": "日経平均株価",
+      "category": "index",
+      "currency": "JPY",
+      "hasDividendAdjustment": false,
+      "firstDate": "2016-07-25",
+      "lastDate": "2026-07-24",
+      "points": 2443
+    },
+    {
+      "id": "ACWI",
+      "ticker": "ACWI",
+      "name": "全世界株 (ACWI)",
+      "category": "equity-etf",
+      "currency": "USD",
+      "hasDividendAdjustment": true,
+      "firstDate": "2016-07-25",
+      "lastDate": "2026-07-24",
+      "points": 2514
+    },
+    {
+      "id": "VT",
+      "ticker": "VT",
+      "name": "全世界株 (VT)",
+      "category": "equity-etf",
+      "currency": "USD",
+      "hasDividendAdjustment": true,
+      "firstDate": "2016-07-25",
+      "lastDate": "2026-07-24",
+      "points": 2514
+    },
+    {
+      "id": "VOO",
+      "ticker": "VOO",
+      "name": "S&P500 ETF (VOO)",
+      "category": "equity-etf",
+      "currency": "USD",
+      "hasDividendAdjustment": true,
+      "firstDate": "2016-07-25",
+      "lastDate": "2026-07-24",
+      "points": 2514
+    },
+    {
+      "id": "QQQ",
+      "ticker": "QQQ",
+      "name": "NASDAQ100 ETF (QQQ)",
+      "category": "equity-etf",
+      "currency": "USD",
+      "hasDividendAdjustment": true,
+      "firstDate": "2016-07-25",
+      "lastDate": "2026-07-24",
+      "points": 2514
+    },
+    {
+      "id": "1306T",
+      "ticker": "1306.T",
+      "name": "TOPIX ETF (1306)",
+      "category": "equity-etf",
+      "currency": "JPY",
+      "hasDividendAdjustment": true,
+      "firstDate": "2016-07-25",
+      "lastDate": "2026-07-24",
+      "points": 2463
+    },
+    {
+      "id": "SCHD",
+      "ticker": "SCHD",
+      "name": "米国高配当 (SCHD)",
+      "category": "dividend-etf",
+      "currency": "USD",
+      "hasDividendAdjustment": true,
+      "firstDate": "2016-07-25",
+      "lastDate": "2026-07-24",
+      "points": 2514
+    },
+    {
+      "id": "VYM",
+      "ticker": "VYM",
+      "name": "米国高配当 (VYM)",
+      "category": "dividend-etf",
+      "currency": "USD",
+      "hasDividendAdjustment": true,
+      "firstDate": "2016-07-25",
+      "lastDate": "2026-07-24",
+      "points": 2514
+    },
+    {
+      "id": "VIG",
+      "ticker": "VIG",
+      "name": "米国増配株 (VIG)",
+      "category": "dividend-etf",
+      "currency": "USD",
+      "hasDividendAdjustment": true,
+      "firstDate": "2016-07-25",
+      "lastDate": "2026-07-24",
+      "points": 2514
+    },
+    {
+      "id": "AGG",
+      "ticker": "AGG",
+      "name": "米国総合債券 (AGG)",
+      "category": "bond",
+      "currency": "USD",
+      "hasDividendAdjustment": true,
+      "firstDate": "2016-07-25",
+      "lastDate": "2026-07-24",
+      "points": 2514
+    },
+    {
+      "id": "TLT",
+      "ticker": "TLT",
+      "name": "米国長期国債 (TLT)",
+      "category": "bond",
+      "currency": "USD",
+      "hasDividendAdjustment": true,
+      "firstDate": "2016-07-25",
+      "lastDate": "2026-07-24",
+      "points": 2514
+    },
+    {
+      "id": "GLD",
+      "ticker": "GLD",
+      "name": "金 (GLD)",
+      "category": "commodity",
+      "currency": "USD",
+      "hasDividendAdjustment": false,
+      "firstDate": "2016-07-25",
+      "lastDate": "2026-07-24",
+      "points": 2514
+    }
+  ]
+}

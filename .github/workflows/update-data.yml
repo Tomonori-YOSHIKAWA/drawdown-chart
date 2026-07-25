@@ -1,0 +1,51 @@
+name: update-data
+
+on:
+  schedule:
+    # 米国市場のクローズ後に走らせる（UTC 固定なので、ET では 17 時 or 18 時になる）。
+    # 火〜土 UTC = 月〜金の取引終了後にあたる。
+    - cron: "0 22 * * 2-6"
+  workflow_dispatch:
+
+# 更新した JSON を main に push するために必要
+permissions:
+  contents: write
+
+# 手動実行とスケジュールが重なってもコミットが競合しないようにする
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Yahoo Finance から価格を取得
+        run: npm run fetch-data
+
+      - name: 差分があればコミットする
+        run: |
+          # index.json は updatedAt が毎回変わるので、価格そのものが動いたかで判定する。
+          # 休場日に空コミットを積んで Vercel を再デプロイさせないため。
+          if git diff --quiet -- public/data ':!public/data/index.json'; then
+            echo "価格データに変化なし。コミットをスキップします。"
+            git checkout -- public/data
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          git commit -m "chore(data): 株価データを更新 ($(date -u +%Y-%m-%d))"
+          git push
