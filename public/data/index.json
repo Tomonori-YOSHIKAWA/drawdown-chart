@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T12:01:42.457Z",
+  "updatedAt": "2026-07-26T00:18:29.304Z",
   "assets": [
     {
       "id": "GSPC",
@@ -98,7 +98,7 @@
       "hasDividendAdjustment": true,
       "firstDate": "2016-07-25",
       "lastDate": "2026-07-24",
-      "points": 2463
+      "points": 2461
     },
     {
       "id": "SCHD",
