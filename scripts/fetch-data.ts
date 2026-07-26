@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { mergeAssetSummaries } from "../src/lib/manifest";
+import { dropPriceOutliers } from "../src/lib/sanitize";
 import { ASSETS, type AssetDef } from "../src/lib/symbols";
 import { buildChartUrl, parseYahooChart } from "../src/lib/yahoo";
 import type { AssetIndex, AssetSummary, PriceSeries } from "../src/lib/types";
@@ -68,7 +69,14 @@ async function main(): Promise<void> {
 
   for (const asset of ASSETS) {
     try {
-      const series = await fetchSeries(asset, updatedAt);
+      const raw = await fetchSeries(asset, updatedAt);
+      const { series, removed } = dropPriceOutliers(raw);
+      if (removed.length > 0) {
+        console.warn(
+          `WARN ${asset.ticker.padEnd(8)} 異常値 ${removed.length} 件を除外: ${removed.join(", ")}`,
+        );
+      }
+
       const compact: PriceSeries = {
         ...series,
         close: round(series.close),
