@@ -171,7 +171,7 @@ export default function DrawdownApp({ index }: { index: AssetIndex }) {
           <h2 className="text-sm text-ink-2">統計</h2>
           <StatsTable series={series} />
           <p className="text-xs text-ink-3">
-            「水面下」は最高値を更新できていない期間の長さ（暦日）。「最長下落の起点」と「回復日」は、最大ドローダウンを記録した下落局面のものです（選択期間内で判定）。
+            「水面下」は最高値を更新できていない期間の長さ（暦日）。「最大下落の起点」「最大下落の発生日」「回復日」は、最大ドローダウンを記録した下落局面のものです（選択期間内で判定）。
           </p>
         </section>
       )}
