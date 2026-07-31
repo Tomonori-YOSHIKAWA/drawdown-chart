@@ -46,59 +46,26 @@
       "points": 2441
     },
     {
-      "id": "ACWI",
-      "ticker": "ACWI",
-      "name": "全世界株 (ACWI)",
-      "category": "equity-etf",
-      "currency": "USD",
-      "hasDividendAdjustment": true,
-      "firstDate": "2016-08-01",
-      "lastDate": "2026-07-30",
-      "points": 2513
-    },
-    {
-      "id": "VT",
-      "ticker": "VT",
-      "name": "全世界株 (VT)",
-      "category": "equity-etf",
-      "currency": "USD",
-      "hasDividendAdjustment": true,
-      "firstDate": "2016-08-01",
-      "lastDate": "2026-07-30",
-      "points": 2513
-    },
-    {
-      "id": "VOO",
-      "ticker": "VOO",
-      "name": "S&P500 ETF (VOO)",
-      "category": "equity-etf",
-      "currency": "USD",
-      "hasDividendAdjustment": true,
-      "firstDate": "2016-08-01",
-      "lastDate": "2026-07-30",
-      "points": 2513
-    },
-    {
-      "id": "QQQ",
-      "ticker": "QQQ",
-      "name": "NASDAQ100 ETF (QQQ)",
-      "category": "equity-etf",
-      "currency": "USD",
-      "hasDividendAdjustment": true,
-      "firstDate": "2016-08-01",
-      "lastDate": "2026-07-30",
-      "points": 2513
-    },
-    {
       "id": "1306T",
       "ticker": "1306.T",
       "name": "TOPIX ETF (1306)",
-      "category": "equity-etf",
+      "category": "index",
       "currency": "JPY",
       "hasDividendAdjustment": true,
       "firstDate": "2016-08-01",
       "lastDate": "2026-07-30",
       "points": 2460
+    },
+    {
+      "id": "ACWI",
+      "ticker": "ACWI",
+      "name": "全世界株 (ACWI)",
+      "category": "index",
+      "currency": "USD",
+      "hasDividendAdjustment": true,
+      "firstDate": "2016-08-01",
+      "lastDate": "2026-07-30",
+      "points": 2513
     },
     {
       "id": "SCHD",

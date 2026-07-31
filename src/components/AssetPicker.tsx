@@ -14,7 +14,6 @@ type Props = {
 
 const CATEGORY_ORDER: AssetCategory[] = [
   "index",
-  "equity-etf",
   "dividend-etf",
   "bond",
   "commodity",
