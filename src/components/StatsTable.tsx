@@ -29,17 +29,18 @@ export default function StatsTable({
             <th scope="col" className="py-2 pr-4 text-right font-normal">
               最大
             </th>
+            <th scope="col" className="py-2 pr-4 text-right font-normal">
+              現在の水面下
+            </th>
+            {/* 起点 → 最大 → 回復 の時系列で並べる（下落の経過を左から読めるように） */}
             <th scope="col" className="py-2 pr-4 font-normal">
-              最大の発生日
+              最長下落の起点
             </th>
             <th scope="col" className="py-2 pr-4 font-normal">
-              起点の高値日
+              最大下落の発生日
             </th>
             <th scope="col" className="py-2 pr-4 font-normal">
               回復日
-            </th>
-            <th scope="col" className="py-2 pr-4 text-right font-normal">
-              現在の水面下
             </th>
             <th scope="col" className="py-2 text-right font-normal">
               最長の水面下
@@ -65,11 +66,14 @@ export default function StatsTable({
               <td className="py-2 pr-4 text-right text-ink tnum">
                 {formatPercent(stats?.max)}
               </td>
-              <td className="py-2 pr-4 text-ink-2 tnum">
-                {formatDate(stats?.maxDate)}
+              <td className="py-2 pr-4 text-right text-ink-2 tnum">
+                {stats ? formatDays(stats.currentUnderwaterDays) : "—"}
               </td>
               <td className="py-2 pr-4 text-ink-2 tnum">
                 {formatDate(stats?.maxPeakDate)}
+              </td>
+              <td className="py-2 pr-4 text-ink-2 tnum">
+                {formatDate(stats?.maxDate)}
               </td>
               <td className="py-2 pr-4 text-ink-2 tnum">
                 {stats == null
@@ -77,9 +81,6 @@ export default function StatsTable({
                   : stats.maxRecoveryDate === null
                     ? "未回復"
                     : formatDate(stats.maxRecoveryDate)}
-              </td>
-              <td className="py-2 pr-4 text-right text-ink-2 tnum">
-                {stats ? formatDays(stats.currentUnderwaterDays) : "—"}
               </td>
               <td className="py-2 text-right text-ink-2 tnum">
                 {stats ? formatDays(stats.longestUnderwaterDays) : "—"}

@@ -165,13 +165,16 @@ export default function DrawdownApp({ index }: { index: AssetIndex }) {
         {series.length >= 2 && <SeriesLegend series={series} />}
       </section>
 
-      <section className="flex flex-col gap-3 rounded-lg border border-hairline bg-surface p-4 sm:p-6">
-        <h2 className="text-sm text-ink-2">統計</h2>
-        <StatsTable series={series} />
-        <p className="text-xs text-ink-3">
-          「水面下」は最高値を更新できていない期間の長さ（暦日）。最大ドローダウンの起点・回復日は選択期間内で判定します。
-        </p>
-      </section>
+      {/* 銘柄未選択のときは見出しと注記だけの空箱になるので、セクションごと出さない */}
+      {series.length > 0 && (
+        <section className="flex flex-col gap-3 rounded-lg border border-hairline bg-surface p-4 sm:p-6">
+          <h2 className="text-sm text-ink-2">統計</h2>
+          <StatsTable series={series} />
+          <p className="text-xs text-ink-3">
+            「水面下」は最高値を更新できていない期間の長さ（暦日）。「最長下落の起点」と「回復日」は、最大ドローダウンを記録した下落局面のものです（選択期間内で判定）。
+          </p>
+        </section>
+      )}
 
       {priceOnlyAssets.length > 0 && (
         <p className="text-xs text-ink-3">
