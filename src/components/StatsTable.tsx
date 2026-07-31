@@ -34,7 +34,7 @@ export default function StatsTable({
             </th>
             {/* 起点 → 最大 → 回復 の時系列で並べる（下落の経過を左から読めるように） */}
             <th scope="col" className="py-2 pr-4 font-normal">
-              最長下落の起点
+              最大下落の起点
             </th>
             <th scope="col" className="py-2 pr-4 font-normal">
               最大下落の発生日
