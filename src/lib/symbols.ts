@@ -1,9 +1,4 @@
-export type AssetCategory =
-  | "index"
-  | "equity-etf"
-  | "dividend-etf"
-  | "bond"
-  | "commodity";
+export type AssetCategory = "index" | "dividend-etf" | "bond" | "commodity";
 
 export type AssetDef = {
   /** Yahoo Finance のティッカー */
@@ -24,14 +19,15 @@ export type AssetDef = {
 
 export const CATEGORY_LABELS: Record<AssetCategory, string> = {
   index: "株価指数",
-  "equity-etf": "株式 ETF",
   "dividend-etf": "高配当・増配 ETF",
   bond: "債券",
   commodity: "コモディティ",
 };
 
 export const ASSETS: readonly AssetDef[] = [
-  // --- 株価指数（いずれも配当を含まない価格指数）---
+  // --- 株価指数 ---
+  // 指数そのものを取得できない全世界株・TOPIX は連動 ETF で代替しているが、
+  // 見たいものは指数なのでカテゴリはここに置く（配当調整の有無だけが指数と異なる）
   {
     ticker: "^GSPC",
     id: "GSPC",
@@ -64,47 +60,22 @@ export const ASSETS: readonly AssetDef[] = [
     currency: "JPY",
     hasDividendAdjustment: false,
   },
-
-  // --- 株式 ETF ---
-  {
-    ticker: "ACWI",
-    id: "ACWI",
-    name: "全世界株 (ACWI)",
-    category: "equity-etf",
-    currency: "USD",
-    hasDividendAdjustment: true,
-  },
-  {
-    ticker: "VT",
-    id: "VT",
-    name: "全世界株 (VT)",
-    category: "equity-etf",
-    currency: "USD",
-    hasDividendAdjustment: true,
-  },
-  {
-    ticker: "VOO",
-    id: "VOO",
-    name: "S&P500 ETF (VOO)",
-    category: "equity-etf",
-    currency: "USD",
-    hasDividendAdjustment: true,
-  },
-  {
-    ticker: "QQQ",
-    id: "QQQ",
-    name: "NASDAQ100 ETF (QQQ)",
-    category: "equity-etf",
-    currency: "USD",
-    hasDividendAdjustment: true,
-  },
   {
     // TOPIX 本体は Yahoo Finance から取得できないため、連動 ETF で代替する
     ticker: "1306.T",
     id: "1306T",
     name: "TOPIX ETF (1306)",
-    category: "equity-etf",
+    category: "index",
     currency: "JPY",
+    hasDividendAdjustment: true,
+  },
+  {
+    // 同じく MSCI ACWI 本体は取得できないため、連動 ETF で代替する
+    ticker: "ACWI",
+    id: "ACWI",
+    name: "全世界株 (ACWI)",
+    category: "index",
+    currency: "USD",
     hasDividendAdjustment: true,
   },
 
@@ -163,8 +134,12 @@ export const ASSETS: readonly AssetDef[] = [
   },
 ] as const;
 
-/** 初期表示する銘柄 */
-export const DEFAULT_SELECTION = ["GSPC", "NDX", "ACWI", "SCHD"] as const;
+/**
+ * 初期表示する銘柄。
+ * 空にしてあるのは、何を比較したいかは人によって違うため。
+ * 勝手に選んだ銘柄を外させるより、選ばせる方が手数が少ない。
+ */
+export const DEFAULT_SELECTION: readonly string[] = [];
 
 /** 同時に表示できる系列数の上限（カテゴリカルパレットのスロット数） */
 export const MAX_SERIES = 8;
