@@ -16,7 +16,7 @@
 
 | カテゴリ | 銘柄 |
 | --- | --- |
-| 株価指数 | S&P 500 / NASDAQ 100 / NY ダウ / 日経平均株価 / TOPIX ETF (1306) / 全世界株 (ACWI) |
+| 株価指数 | S&P 500 / NASDAQ 100 / NY ダウ / 日経平均株価 / TOPIX / 全世界株 (ACWI) |
 | 高配当・増配 ETF | SCHD / VYM / VIG |
 | 債券 | AGG / TLT |
 | コモディティ | 金 (GLD) |

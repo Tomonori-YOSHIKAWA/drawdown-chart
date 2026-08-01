@@ -61,10 +61,11 @@ export const ASSETS: readonly AssetDef[] = [
     hasDividendAdjustment: false,
   },
   {
-    // TOPIX 本体は Yahoo Finance から取得できないため、連動 ETF で代替する
+    // TOPIX 本体は Yahoo Finance から取得できないため、連動 ETF (1306) で代替する。
+    // 見たいものは TOPIX そのものなので、表示名には ETF の銘柄コードを出さない
     ticker: "1306.T",
     id: "1306T",
-    name: "TOPIX ETF (1306)",
+    name: "TOPIX",
     category: "index",
     currency: "JPY",
     hasDividendAdjustment: true,
