@@ -48,7 +48,7 @@
     {
       "id": "1306T",
       "ticker": "1306.T",
-      "name": "TOPIX ETF (1306)",
+      "name": "TOPIX",
       "category": "index",
       "currency": "JPY",
       "hasDividendAdjustment": true,

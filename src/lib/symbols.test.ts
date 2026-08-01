@@ -1,3 +1,4 @@
+import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import {
   ASSETS,
@@ -51,5 +52,24 @@ describe("ASSETS", () => {
     expect([...Object.keys(CATEGORY_LABELS)].sort()).toEqual(
       [...used].sort(),
     );
+  });
+});
+
+describe("public/data/index.json", () => {
+  // 銘柄マスタを変えても index.json は fetch-data を走らせるまで古いまま残る。
+  // UI が読むのは index.json 側なので、ここがずれると表示だけ更新されない
+  it("コミット済みのメタ情報が銘柄マスタと一致する", () => {
+    const index = JSON.parse(
+      readFileSync("public/data/index.json", "utf8"),
+    ) as { assets: { id: string; ticker: string; name: string }[] };
+
+    expect(index.assets.map((a) => a.id)).toEqual(ASSETS.map((a) => a.id));
+    for (const asset of ASSETS) {
+      const entry = index.assets.find((a) => a.id === asset.id);
+      expect(entry).toMatchObject({
+        ticker: asset.ticker,
+        name: asset.name,
+      });
+    }
   });
 });
