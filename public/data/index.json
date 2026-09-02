@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T23:50:02.017Z",
+  "updatedAt": "2026-09-02T23:53:28.135Z",
   "assets": [
     {
       "id": "GSPC",
@@ -8,8 +8,8 @@
       "category": "index",
       "currency": "USD",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-09-02",
-      "lastDate": "2026-09-01",
+      "firstDate": "2016-09-06",
+      "lastDate": "2026-09-02",
       "points": 2512
     },
     {
@@ -19,8 +19,8 @@
       "category": "index",
       "currency": "USD",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-09-02",
-      "lastDate": "2026-09-01",
+      "firstDate": "2016-09-06",
+      "lastDate": "2026-09-02",
       "points": 2512
     },
     {
@@ -30,9 +30,9 @@
       "category": "index",
       "currency": "USD",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-09-02",
-      "lastDate": "2026-09-01",
-      "points": 2512
+      "firstDate": "2016-09-06",
+      "lastDate": "2026-09-02",
+      "points": 2511
     },
     {
       "id": "N225",
@@ -41,9 +41,9 @@
       "category": "index",
       "currency": "JPY",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-09-01",
-      "lastDate": "2026-08-31",
-      "points": 2441
+      "firstDate": "2016-09-02",
+      "lastDate": "2026-09-01",
+      "points": 2440
     },
     {
       "id": "1306T",
@@ -52,8 +52,8 @@
       "category": "index",
       "currency": "JPY",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-09-01",
-      "lastDate": "2026-09-01",
+      "firstDate": "2016-09-02",
+      "lastDate": "2026-09-02",
       "points": 2460
     },
     {
@@ -63,8 +63,8 @@
       "category": "index",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-09-02",
-      "lastDate": "2026-09-01",
+      "firstDate": "2016-09-06",
+      "lastDate": "2026-09-02",
       "points": 2512
     },
     {
@@ -74,8 +74,8 @@
       "category": "dividend-etf",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-09-02",
-      "lastDate": "2026-09-01",
+      "firstDate": "2016-09-06",
+      "lastDate": "2026-09-02",
       "points": 2512
     },
     {
@@ -85,9 +85,9 @@
       "category": "dividend-etf",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-09-02",
-      "lastDate": "2026-09-01",
-      "points": 2512
+      "firstDate": "2016-09-06",
+      "lastDate": "2026-09-02",
+      "points": 2511
     },
     {
       "id": "VIG",
@@ -96,8 +96,8 @@
       "category": "dividend-etf",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-09-02",
-      "lastDate": "2026-09-01",
+      "firstDate": "2016-09-06",
+      "lastDate": "2026-09-02",
       "points": 2512
     },
     {
@@ -107,8 +107,8 @@
       "category": "bond",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-09-02",
-      "lastDate": "2026-09-01",
+      "firstDate": "2016-09-06",
+      "lastDate": "2026-09-02",
       "points": 2512
     },
     {
@@ -118,8 +118,8 @@
       "category": "bond",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-09-02",
-      "lastDate": "2026-09-01",
+      "firstDate": "2016-09-06",
+      "lastDate": "2026-09-02",
       "points": 2512
     },
     {
@@ -129,8 +129,8 @@
       "category": "commodity",
       "currency": "USD",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-09-02",
-      "lastDate": "2026-09-01",
+      "firstDate": "2016-09-06",
+      "lastDate": "2026-09-02",
       "points": 2512
     }
   ]
