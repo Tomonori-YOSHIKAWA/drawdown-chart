@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T23:46:40.928Z",
+  "updatedAt": "2026-09-05T23:35:25.712Z",
   "assets": [
     {
       "id": "GSPC",
@@ -42,8 +42,8 @@
       "currency": "JPY",
       "hasDividendAdjustment": false,
       "firstDate": "2016-09-05",
-      "lastDate": "2026-09-03",
-      "points": 2442
+      "lastDate": "2026-09-04",
+      "points": 2443
     },
     {
       "id": "1306T",
