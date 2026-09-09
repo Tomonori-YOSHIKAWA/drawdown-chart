@@ -27,7 +27,18 @@ export const CATEGORY_LABELS: Record<AssetCategory, string> = {
 export const ASSETS: readonly AssetDef[] = [
   // --- 株価指数 ---
   // 指数そのものを取得できない全世界株・TOPIX は連動 ETF で代替しているが、
-  // 見たいものは指数なのでカテゴリはここに置く（配当調整の有無だけが指数と異なる）
+  // 見たいものは指数なのでカテゴリはここに置く（配当調整の有無だけが指数と異なる）。
+  // 並びは対象範囲の広い順（全世界 → 米国 → 日本）にして、
+  // 見比べるときに視野を狭めていく順で読めるようにする
+  {
+    // MSCI ACWI 本体は取得できないため、連動 ETF で代替する
+    ticker: "ACWI",
+    id: "ACWI",
+    name: "全世界株 (ACWI)",
+    category: "index",
+    currency: "USD",
+    hasDividendAdjustment: true,
+  },
   {
     ticker: "^GSPC",
     id: "GSPC",
@@ -68,15 +79,6 @@ export const ASSETS: readonly AssetDef[] = [
     name: "TOPIX",
     category: "index",
     currency: "JPY",
-    hasDividendAdjustment: true,
-  },
-  {
-    // 同じく MSCI ACWI 本体は取得できないため、連動 ETF で代替する
-    ticker: "ACWI",
-    id: "ACWI",
-    name: "全世界株 (ACWI)",
-    category: "index",
-    currency: "USD",
     hasDividendAdjustment: true,
   },
 
@@ -121,6 +123,17 @@ export const ASSETS: readonly AssetDef[] = [
     name: "米国長期国債 (TLT)",
     category: "bond",
     currency: "USD",
+    hasDividendAdjustment: true,
+  },
+  {
+    // WGBI 本体は取得できないため、連動 ETF (2511) で代替する。
+    // 除く日本・為替ヘッジなしの円建てを選んでいるので、
+    // ここでの下落には債券価格だけでなく為替も含まれる（＝日本から買った場合の実感に近い）
+    ticker: "2511.T",
+    id: "2511T",
+    name: "世界国債 (WGBI)",
+    category: "bond",
+    currency: "JPY",
     hasDividendAdjustment: true,
   },
 

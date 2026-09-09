@@ -34,6 +34,17 @@ describe("ASSETS", () => {
     expect(getAsset("1306T")?.category).toBe<AssetCategory>("index");
   });
 
+  it("株価指数は全世界株を起点に、米国 → 日本の順で並ぶ", () => {
+    // AssetPicker はカテゴリで絞り込むだけで並べ替えないので、
+    // 表示順はこのマスタの順序がそのまま出る
+    const ids = ASSETS.filter((a) => a.category === "index").map((a) => a.id);
+    expect(ids).toEqual(["ACWI", "GSPC", "NDX", "DJI", "N225", "1306T"]);
+  });
+
+  it("WGBI を債券として持つ", () => {
+    expect(getAsset("2511T")?.category).toBe<AssetCategory>("bond");
+  });
+
   it("指数と重複する ETF は持たない", () => {
     const ids = ASSETS.map((a) => a.id);
     expect(ids).not.toContain("VT");

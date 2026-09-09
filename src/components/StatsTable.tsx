@@ -16,7 +16,7 @@ export default function StatsTable({
 
   return (
     <div className="overflow-x-auto">
-      <table className="w-full min-w-[720px] border-collapse text-sm">
+      <table className="w-full min-w-[840px] border-collapse text-sm">
         <caption className="sr-only">選択中の銘柄のドローダウン統計</caption>
         <thead>
           <tr className="border-b border-hairline text-left text-xs text-ink-3">
@@ -27,20 +27,20 @@ export default function StatsTable({
               現在
             </th>
             <th scope="col" className="py-2 pr-4 text-right font-normal">
-              最大
+              現在の水面下日数
             </th>
-            <th scope="col" className="py-2 pr-4 text-right font-normal">
-              現在の水面下
-            </th>
-            {/* 起点 → 最大 → 回復 の時系列で並べる（下落の経過を左から読めるように） */}
+            {/* 起点 → 底 → 深さ → 回復 の順に置いて、最大下落の経過を左から読み切れるようにする */}
             <th scope="col" className="py-2 pr-4 font-normal">
               最大下落の起点
             </th>
             <th scope="col" className="py-2 pr-4 font-normal">
-              最大下落の発生日
+              最大下落日
+            </th>
+            <th scope="col" className="py-2 pr-4 text-right font-normal">
+              最大下落
             </th>
             <th scope="col" className="py-2 pr-4 font-normal">
-              回復日
+              最大下落の回復日
             </th>
             <th scope="col" className="py-2 text-right font-normal">
               最長の水面下
@@ -63,9 +63,6 @@ export default function StatsTable({
               <td className="py-2 pr-4 text-right text-ink tnum">
                 {formatPercent(stats?.current)}
               </td>
-              <td className="py-2 pr-4 text-right text-ink tnum">
-                {formatPercent(stats?.max)}
-              </td>
               <td className="py-2 pr-4 text-right text-ink-2 tnum">
                 {stats ? formatDays(stats.currentUnderwaterDays) : "—"}
               </td>
@@ -74,6 +71,9 @@ export default function StatsTable({
               </td>
               <td className="py-2 pr-4 text-ink-2 tnum">
                 {formatDate(stats?.maxDate)}
+              </td>
+              <td className="py-2 pr-4 text-right text-ink tnum">
+                {formatPercent(stats?.max)}
               </td>
               <td className="py-2 pr-4 text-ink-2 tnum">
                 {stats == null
