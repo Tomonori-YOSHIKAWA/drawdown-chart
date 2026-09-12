@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T23:54:45.515Z",
+  "updatedAt": "2026-09-12T23:48:06.677Z",
   "assets": [
     {
       "id": "ACWI",
@@ -53,8 +53,8 @@
       "currency": "JPY",
       "hasDividendAdjustment": false,
       "firstDate": "2016-09-12",
-      "lastDate": "2026-09-10",
-      "points": 2442
+      "lastDate": "2026-09-11",
+      "points": 2443
     },
     {
       "id": "1306T",
