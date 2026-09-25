@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T00:16:10.375Z",
+  "updatedAt": "2026-09-25T00:18:35.079Z",
   "assets": [
     {
       "id": "ACWI",
@@ -9,8 +9,8 @@
       "currency": "USD",
       "hasDividendAdjustment": true,
       "firstDate": "2016-09-26",
-      "lastDate": "2026-09-21",
-      "points": 2510
+      "lastDate": "2026-09-23",
+      "points": 2511
     },
     {
       "id": "GSPC",
@@ -20,8 +20,8 @@
       "currency": "USD",
       "hasDividendAdjustment": false,
       "firstDate": "2016-09-26",
-      "lastDate": "2026-09-23",
-      "points": 2511
+      "lastDate": "2026-09-24",
+      "points": 2512
     },
     {
       "id": "NDX",
@@ -31,8 +31,8 @@
       "currency": "USD",
       "hasDividendAdjustment": false,
       "firstDate": "2016-09-26",
-      "lastDate": "2026-09-23",
-      "points": 2511
+      "lastDate": "2026-09-24",
+      "points": 2512
     },
     {
       "id": "DJI",
@@ -42,8 +42,8 @@
       "currency": "USD",
       "hasDividendAdjustment": false,
       "firstDate": "2016-09-26",
-      "lastDate": "2026-09-23",
-      "points": 2511
+      "lastDate": "2026-09-24",
+      "points": 2512
     },
     {
       "id": "N225",
@@ -53,7 +53,7 @@
       "currency": "JPY",
       "hasDividendAdjustment": false,
       "firstDate": "2016-09-26",
-      "lastDate": "2026-09-24",
+      "lastDate": "2026-09-25",
       "points": 2441
     },
     {
@@ -64,8 +64,8 @@
       "currency": "JPY",
       "hasDividendAdjustment": true,
       "firstDate": "2016-09-26",
-      "lastDate": "2026-09-24",
-      "points": 2459
+      "lastDate": "2026-09-25",
+      "points": 2460
     },
     {
       "id": "SCHD",
@@ -75,8 +75,8 @@
       "currency": "USD",
       "hasDividendAdjustment": true,
       "firstDate": "2016-09-26",
-      "lastDate": "2026-09-22",
-      "points": 2511
+      "lastDate": "2026-09-23",
+      "points": 2512
     },
     {
       "id": "VYM",
@@ -86,8 +86,8 @@
       "currency": "USD",
       "hasDividendAdjustment": true,
       "firstDate": "2016-09-26",
-      "lastDate": "2026-09-21",
-      "points": 2510
+      "lastDate": "2026-09-23",
+      "points": 2511
     },
     {
       "id": "VIG",
@@ -97,8 +97,8 @@
       "currency": "USD",
       "hasDividendAdjustment": true,
       "firstDate": "2016-09-26",
-      "lastDate": "2026-09-21",
-      "points": 2510
+      "lastDate": "2026-09-23",
+      "points": 2511
     },
     {
       "id": "AGG",
@@ -108,8 +108,8 @@
       "currency": "USD",
       "hasDividendAdjustment": true,
       "firstDate": "2016-09-26",
-      "lastDate": "2026-09-21",
-      "points": 2510
+      "lastDate": "2026-09-23",
+      "points": 2511
     },
     {
       "id": "TLT",
@@ -119,8 +119,8 @@
       "currency": "USD",
       "hasDividendAdjustment": true,
       "firstDate": "2016-09-26",
-      "lastDate": "2026-09-22",
-      "points": 2511
+      "lastDate": "2026-09-23",
+      "points": 2512
     },
     {
       "id": "2511T",
@@ -130,8 +130,8 @@
       "currency": "JPY",
       "hasDividendAdjustment": true,
       "firstDate": "2017-12-06",
-      "lastDate": "2026-09-24",
-      "points": 2160
+      "lastDate": "2026-09-25",
+      "points": 2161
     },
     {
       "id": "GLD",
@@ -141,8 +141,8 @@
       "currency": "USD",
       "hasDividendAdjustment": false,
       "firstDate": "2016-09-26",
-      "lastDate": "2026-09-22",
-      "points": 2511
+      "lastDate": "2026-09-23",
+      "points": 2512
     }
   ]
 }
