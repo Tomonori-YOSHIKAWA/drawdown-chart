@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T00:18:29.306Z",
+  "updatedAt": "2026-09-30T01:07:26.019Z",
   "assets": [
     {
       "id": "ACWI",
@@ -8,9 +8,9 @@
       "category": "index",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-09-26",
-      "lastDate": "2026-09-25",
-      "points": 2514
+      "firstDate": "2016-09-30",
+      "lastDate": "2026-09-28",
+      "points": 2511
     },
     {
       "id": "GSPC",
@@ -19,9 +19,9 @@
       "category": "index",
       "currency": "USD",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-09-26",
-      "lastDate": "2026-09-25",
-      "points": 2514
+      "firstDate": "2016-09-30",
+      "lastDate": "2026-09-29",
+      "points": 2512
     },
     {
       "id": "NDX",
@@ -30,9 +30,9 @@
       "category": "index",
       "currency": "USD",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-09-26",
-      "lastDate": "2026-09-25",
-      "points": 2514
+      "firstDate": "2016-09-30",
+      "lastDate": "2026-09-29",
+      "points": 2512
     },
     {
       "id": "DJI",
@@ -41,9 +41,9 @@
       "category": "index",
       "currency": "USD",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-09-26",
-      "lastDate": "2026-09-25",
-      "points": 2514
+      "firstDate": "2016-09-30",
+      "lastDate": "2026-09-29",
+      "points": 2512
     },
     {
       "id": "N225",
@@ -52,9 +52,9 @@
       "category": "index",
       "currency": "JPY",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-09-26",
-      "lastDate": "2026-09-25",
-      "points": 2442
+      "firstDate": "2016-09-30",
+      "lastDate": "2026-09-30",
+      "points": 2440
     },
     {
       "id": "1306T",
@@ -63,9 +63,9 @@
       "category": "index",
       "currency": "JPY",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-09-26",
-      "lastDate": "2026-09-25",
-      "points": 2460
+      "firstDate": "2016-09-30",
+      "lastDate": "2026-09-30",
+      "points": 2459
     },
     {
       "id": "SCHD",
@@ -74,9 +74,9 @@
       "category": "dividend-etf",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-09-26",
-      "lastDate": "2026-09-25",
-      "points": 2514
+      "firstDate": "2016-09-30",
+      "lastDate": "2026-09-28",
+      "points": 2511
     },
     {
       "id": "VYM",
@@ -85,9 +85,9 @@
       "category": "dividend-etf",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-09-26",
-      "lastDate": "2026-09-25",
-      "points": 2514
+      "firstDate": "2016-09-30",
+      "lastDate": "2026-09-28",
+      "points": 2511
     },
     {
       "id": "VIG",
@@ -96,9 +96,9 @@
       "category": "dividend-etf",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-09-26",
-      "lastDate": "2026-09-25",
-      "points": 2514
+      "firstDate": "2016-09-30",
+      "lastDate": "2026-09-28",
+      "points": 2511
     },
     {
       "id": "AGG",
@@ -107,9 +107,9 @@
       "category": "bond",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-09-26",
-      "lastDate": "2026-09-25",
-      "points": 2514
+      "firstDate": "2016-09-30",
+      "lastDate": "2026-09-28",
+      "points": 2511
     },
     {
       "id": "TLT",
@@ -118,9 +118,9 @@
       "category": "bond",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-09-26",
-      "lastDate": "2026-09-25",
-      "points": 2514
+      "firstDate": "2016-09-30",
+      "lastDate": "2026-09-28",
+      "points": 2511
     },
     {
       "id": "2511T",
@@ -130,8 +130,8 @@
       "currency": "JPY",
       "hasDividendAdjustment": true,
       "firstDate": "2017-12-06",
-      "lastDate": "2026-09-25",
-      "points": 2161
+      "lastDate": "2026-09-30",
+      "points": 2164
     },
     {
       "id": "GLD",
@@ -140,9 +140,9 @@
       "category": "commodity",
       "currency": "USD",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-09-26",
-      "lastDate": "2026-09-25",
-      "points": 2514
+      "firstDate": "2016-09-30",
+      "lastDate": "2026-09-28",
+      "points": 2511
     }
   ]
 }
