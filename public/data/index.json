@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T01:46:14.894Z",
+  "updatedAt": "2026-10-10T01:32:56.336Z",
   "assets": [
     {
       "id": "ACWI",
@@ -20,8 +20,8 @@
       "currency": "USD",
       "hasDividendAdjustment": false,
       "firstDate": "2016-10-10",
-      "lastDate": "2026-10-08",
-      "points": 2513
+      "lastDate": "2026-10-09",
+      "points": 2514
     },
     {
       "id": "NDX",
@@ -31,8 +31,8 @@
       "currency": "USD",
       "hasDividendAdjustment": false,
       "firstDate": "2016-10-10",
-      "lastDate": "2026-10-08",
-      "points": 2513
+      "lastDate": "2026-10-09",
+      "points": 2514
     },
     {
       "id": "DJI",
@@ -42,8 +42,8 @@
       "currency": "USD",
       "hasDividendAdjustment": false,
       "firstDate": "2016-10-10",
-      "lastDate": "2026-10-08",
-      "points": 2513
+      "lastDate": "2026-10-09",
+      "points": 2514
     },
     {
       "id": "N225",
@@ -53,8 +53,8 @@
       "currency": "JPY",
       "hasDividendAdjustment": false,
       "firstDate": "2016-10-11",
-      "lastDate": "2026-10-09",
-      "points": 2442
+      "lastDate": "2026-10-08",
+      "points": 2441
     },
     {
       "id": "1306T",
