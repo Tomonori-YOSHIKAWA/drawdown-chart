@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T00:24:05.782Z",
+  "updatedAt": "2026-10-22T00:27:33.559Z",
   "assets": [
     {
       "id": "ACWI",
@@ -8,8 +8,8 @@
       "category": "index",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-10-21",
-      "lastDate": "2026-10-19",
+      "firstDate": "2016-10-24",
+      "lastDate": "2026-10-20",
       "points": 2511
     },
     {
@@ -19,8 +19,8 @@
       "category": "index",
       "currency": "USD",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-10-21",
-      "lastDate": "2026-10-20",
+      "firstDate": "2016-10-24",
+      "lastDate": "2026-10-21",
       "points": 2512
     },
     {
@@ -30,8 +30,8 @@
       "category": "index",
       "currency": "USD",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-10-21",
-      "lastDate": "2026-10-20",
+      "firstDate": "2016-10-24",
+      "lastDate": "2026-10-21",
       "points": 2512
     },
     {
@@ -41,8 +41,8 @@
       "category": "index",
       "currency": "USD",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-10-21",
-      "lastDate": "2026-10-20",
+      "firstDate": "2016-10-24",
+      "lastDate": "2026-10-21",
       "points": 2512
     },
     {
@@ -52,8 +52,8 @@
       "category": "index",
       "currency": "JPY",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-10-21",
-      "lastDate": "2026-10-21",
+      "firstDate": "2016-10-24",
+      "lastDate": "2026-10-22",
       "points": 2440
     },
     {
@@ -63,8 +63,8 @@
       "category": "index",
       "currency": "JPY",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-10-21",
-      "lastDate": "2026-10-21",
+      "firstDate": "2016-10-24",
+      "lastDate": "2026-10-22",
       "points": 2459
     },
     {
@@ -74,8 +74,8 @@
       "category": "dividend-etf",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-10-21",
-      "lastDate": "2026-10-19",
+      "firstDate": "2016-10-24",
+      "lastDate": "2026-10-20",
       "points": 2511
     },
     {
@@ -85,8 +85,8 @@
       "category": "dividend-etf",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-10-21",
-      "lastDate": "2026-10-19",
+      "firstDate": "2016-10-24",
+      "lastDate": "2026-10-20",
       "points": 2511
     },
     {
@@ -96,8 +96,8 @@
       "category": "dividend-etf",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-10-21",
-      "lastDate": "2026-10-19",
+      "firstDate": "2016-10-24",
+      "lastDate": "2026-10-20",
       "points": 2511
     },
     {
@@ -107,8 +107,8 @@
       "category": "bond",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-10-21",
-      "lastDate": "2026-10-19",
+      "firstDate": "2016-10-24",
+      "lastDate": "2026-10-20",
       "points": 2511
     },
     {
@@ -118,8 +118,8 @@
       "category": "bond",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-10-21",
-      "lastDate": "2026-10-19",
+      "firstDate": "2016-10-24",
+      "lastDate": "2026-10-20",
       "points": 2511
     },
     {
@@ -130,8 +130,8 @@
       "currency": "JPY",
       "hasDividendAdjustment": true,
       "firstDate": "2017-12-06",
-      "lastDate": "2026-10-21",
-      "points": 2178
+      "lastDate": "2026-10-22",
+      "points": 2179
     },
     {
       "id": "GLD",
@@ -140,8 +140,8 @@
       "category": "commodity",
       "currency": "USD",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-10-21",
-      "lastDate": "2026-10-19",
+      "firstDate": "2016-10-24",
+      "lastDate": "2026-10-20",
       "points": 2511
     }
   ]
