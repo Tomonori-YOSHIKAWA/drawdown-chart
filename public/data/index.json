@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T00:19:03.473Z",
+  "updatedAt": "2026-10-25T00:02:01.902Z",
   "assets": [
     {
       "id": "ACWI",
@@ -9,8 +9,8 @@
       "currency": "USD",
       "hasDividendAdjustment": true,
       "firstDate": "2016-10-24",
-      "lastDate": "2026-10-22",
-      "points": 2513
+      "lastDate": "2026-10-23",
+      "points": 2514
     },
     {
       "id": "GSPC",
@@ -53,8 +53,8 @@
       "currency": "JPY",
       "hasDividendAdjustment": false,
       "firstDate": "2016-10-24",
-      "lastDate": "2026-10-22",
-      "points": 2441
+      "lastDate": "2026-10-23",
+      "points": 2442
     },
     {
       "id": "1306T",
@@ -75,8 +75,8 @@
       "currency": "USD",
       "hasDividendAdjustment": true,
       "firstDate": "2016-10-24",
-      "lastDate": "2026-10-22",
-      "points": 2513
+      "lastDate": "2026-10-23",
+      "points": 2514
     },
     {
       "id": "VYM",
@@ -86,8 +86,8 @@
       "currency": "USD",
       "hasDividendAdjustment": true,
       "firstDate": "2016-10-24",
-      "lastDate": "2026-10-22",
-      "points": 2513
+      "lastDate": "2026-10-23",
+      "points": 2514
     },
     {
       "id": "VIG",
@@ -97,8 +97,8 @@
       "currency": "USD",
       "hasDividendAdjustment": true,
       "firstDate": "2016-10-24",
-      "lastDate": "2026-10-22",
-      "points": 2513
+      "lastDate": "2026-10-23",
+      "points": 2514
     },
     {
       "id": "AGG",
@@ -108,8 +108,8 @@
       "currency": "USD",
       "hasDividendAdjustment": true,
       "firstDate": "2016-10-24",
-      "lastDate": "2026-10-22",
-      "points": 2513
+      "lastDate": "2026-10-23",
+      "points": 2514
     },
     {
       "id": "TLT",
@@ -119,8 +119,8 @@
       "currency": "USD",
       "hasDividendAdjustment": true,
       "firstDate": "2016-10-24",
-      "lastDate": "2026-10-22",
-      "points": 2513
+      "lastDate": "2026-10-23",
+      "points": 2514
     },
     {
       "id": "2511T",
@@ -141,8 +141,8 @@
       "currency": "USD",
       "hasDividendAdjustment": false,
       "firstDate": "2016-10-24",
-      "lastDate": "2026-10-22",
-      "points": 2513
+      "lastDate": "2026-10-23",
+      "points": 2514
     }
   ]
 }
