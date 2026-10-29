@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T01:00:11.724Z",
+  "updatedAt": "2026-10-29T01:35:51.898Z",
   "assets": [
     {
       "id": "ACWI",
@@ -8,9 +8,9 @@
       "category": "index",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-10-28",
-      "lastDate": "2026-10-26",
-      "points": 2511
+      "firstDate": "2016-10-31",
+      "lastDate": "2026-10-28",
+      "points": 2512
     },
     {
       "id": "GSPC",
@@ -19,8 +19,8 @@
       "category": "index",
       "currency": "USD",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-10-28",
-      "lastDate": "2026-10-27",
+      "firstDate": "2016-10-31",
+      "lastDate": "2026-10-28",
       "points": 2512
     },
     {
@@ -30,8 +30,8 @@
       "category": "index",
       "currency": "USD",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-10-28",
-      "lastDate": "2026-10-27",
+      "firstDate": "2016-10-31",
+      "lastDate": "2026-10-28",
       "points": 2512
     },
     {
@@ -41,8 +41,8 @@
       "category": "index",
       "currency": "USD",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-10-28",
-      "lastDate": "2026-10-27",
+      "firstDate": "2016-10-31",
+      "lastDate": "2026-10-28",
       "points": 2512
     },
     {
@@ -52,9 +52,9 @@
       "category": "index",
       "currency": "JPY",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-10-28",
-      "lastDate": "2026-10-28",
-      "points": 2440
+      "firstDate": "2016-10-31",
+      "lastDate": "2026-10-29",
+      "points": 2441
     },
     {
       "id": "1306T",
@@ -63,8 +63,8 @@
       "category": "index",
       "currency": "JPY",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-10-28",
-      "lastDate": "2026-10-28",
+      "firstDate": "2016-10-31",
+      "lastDate": "2026-10-29",
       "points": 2459
     },
     {
@@ -74,9 +74,9 @@
       "category": "dividend-etf",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-10-28",
-      "lastDate": "2026-10-26",
-      "points": 2511
+      "firstDate": "2016-10-31",
+      "lastDate": "2026-10-28",
+      "points": 2512
     },
     {
       "id": "VYM",
@@ -85,9 +85,9 @@
       "category": "dividend-etf",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-10-28",
-      "lastDate": "2026-10-26",
-      "points": 2511
+      "firstDate": "2016-10-31",
+      "lastDate": "2026-10-28",
+      "points": 2512
     },
     {
       "id": "VIG",
@@ -96,9 +96,9 @@
       "category": "dividend-etf",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-10-28",
-      "lastDate": "2026-10-26",
-      "points": 2511
+      "firstDate": "2016-10-31",
+      "lastDate": "2026-10-28",
+      "points": 2512
     },
     {
       "id": "AGG",
@@ -107,9 +107,9 @@
       "category": "bond",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-10-28",
-      "lastDate": "2026-10-26",
-      "points": 2511
+      "firstDate": "2016-10-31",
+      "lastDate": "2026-10-28",
+      "points": 2512
     },
     {
       "id": "TLT",
@@ -118,9 +118,9 @@
       "category": "bond",
       "currency": "USD",
       "hasDividendAdjustment": true,
-      "firstDate": "2016-10-28",
-      "lastDate": "2026-10-26",
-      "points": 2511
+      "firstDate": "2016-10-31",
+      "lastDate": "2026-10-28",
+      "points": 2512
     },
     {
       "id": "2511T",
@@ -130,8 +130,8 @@
       "currency": "JPY",
       "hasDividendAdjustment": true,
       "firstDate": "2017-12-06",
-      "lastDate": "2026-10-28",
-      "points": 2183
+      "lastDate": "2026-10-29",
+      "points": 2184
     },
     {
       "id": "GLD",
@@ -140,9 +140,9 @@
       "category": "commodity",
       "currency": "USD",
       "hasDividendAdjustment": false,
-      "firstDate": "2016-10-28",
-      "lastDate": "2026-10-26",
-      "points": 2511
+      "firstDate": "2016-10-31",
+      "lastDate": "2026-10-28",
+      "points": 2512
     }
   ]
 }
