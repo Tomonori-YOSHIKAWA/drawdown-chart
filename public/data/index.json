@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T02:44:43.545Z",
+  "updatedAt": "2026-11-13T02:27:19.953Z",
   "assets": [
     {
       "id": "ACWI",
@@ -20,8 +20,8 @@
       "currency": "USD",
       "hasDividendAdjustment": false,
       "firstDate": "2016-11-14",
-      "lastDate": "2026-11-11",
-      "points": 2512
+      "lastDate": "2026-11-12",
+      "points": 2513
     },
     {
       "id": "NDX",
@@ -31,8 +31,8 @@
       "currency": "USD",
       "hasDividendAdjustment": false,
       "firstDate": "2016-11-14",
-      "lastDate": "2026-11-11",
-      "points": 2512
+      "lastDate": "2026-11-12",
+      "points": 2513
     },
     {
       "id": "DJI",
@@ -42,8 +42,8 @@
       "currency": "USD",
       "hasDividendAdjustment": false,
       "firstDate": "2016-11-14",
-      "lastDate": "2026-11-11",
-      "points": 2512
+      "lastDate": "2026-11-12",
+      "points": 2513
     },
     {
       "id": "N225",
@@ -53,7 +53,7 @@
       "currency": "JPY",
       "hasDividendAdjustment": false,
       "firstDate": "2016-11-14",
-      "lastDate": "2026-11-12",
+      "lastDate": "2026-11-13",
       "points": 2441
     },
     {
@@ -64,8 +64,8 @@
       "currency": "JPY",
       "hasDividendAdjustment": true,
       "firstDate": "2016-11-14",
-      "lastDate": "2026-11-12",
-      "points": 2459
+      "lastDate": "2026-11-13",
+      "points": 2460
     },
     {
       "id": "SCHD",
@@ -130,8 +130,8 @@
       "currency": "JPY",
       "hasDividendAdjustment": true,
       "firstDate": "2017-12-06",
-      "lastDate": "2026-11-12",
-      "points": 2193
+      "lastDate": "2026-11-13",
+      "points": 2194
     },
     {
       "id": "GLD",
