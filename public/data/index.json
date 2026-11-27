@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T03:59:08.775Z",
+  "updatedAt": "2026-11-27T03:57:52.431Z",
   "assets": [
     {
       "id": "ACWI",
@@ -53,8 +53,8 @@
       "currency": "JPY",
       "hasDividendAdjustment": false,
       "firstDate": "2016-11-28",
-      "lastDate": "2026-11-26",
-      "points": 2441
+      "lastDate": "2026-11-27",
+      "points": 2442
     },
     {
       "id": "1306T",
@@ -64,8 +64,8 @@
       "currency": "JPY",
       "hasDividendAdjustment": true,
       "firstDate": "2016-11-28",
-      "lastDate": "2026-11-26",
-      "points": 2459
+      "lastDate": "2026-11-27",
+      "points": 2460
     },
     {
       "id": "SCHD",
@@ -130,8 +130,8 @@
       "currency": "JPY",
       "hasDividendAdjustment": true,
       "firstDate": "2017-12-06",
-      "lastDate": "2026-11-26",
-      "points": 2202
+      "lastDate": "2026-11-27",
+      "points": 2203
     },
     {
       "id": "GLD",
